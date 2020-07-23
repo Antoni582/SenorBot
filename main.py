@@ -1,6 +1,6 @@
 import os
 import discord
-TOKEN = 'NzM1OTU2NDQxNDk5Njk3Mjgz.Xxn2TQ.SsXldPG5pKwYCN9t0GTnw9YOb48'
+TOKEN = 'alavavergaagaaa'
 
 
 
@@ -17,7 +17,7 @@ client = MyClient()
 async def on_message(message):
     if message.author == client.user:
         return
-    if message.content == '0':
+    if message.content == '':
         await message.channel.send('fred es gay')
 
 
